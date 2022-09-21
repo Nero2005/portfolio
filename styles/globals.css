@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -22,5 +22,21 @@ a {
   body {
     color: white;
     background: black;
+  }
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all 
+    hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40;
+  }
+  .contactInput {
+    @apply outline-none bg-slate-400/10 rounded-sm border-b px-4 py-2 sm:px-6 sm:py-4 border-[#242424] text-gray-500 
+    placeholder:text-gray-500 transition-all focus:border-[#f7ab0a]/40 focus:text-[#f7ab0a]/40
+    hover:border-[#f7ab0a]/40;
   }
 }
