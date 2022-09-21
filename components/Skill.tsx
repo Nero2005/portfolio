@@ -13,7 +13,7 @@ const Skill = ({ directionLeft, skill }: Props) => {
     <div className="group relative flex cursor-pointer">
       <motion.img
         initial={{ opacity: 0, x: directionLeft ? -200 : 200 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
         src={urlFor(skill?.image).url()}
