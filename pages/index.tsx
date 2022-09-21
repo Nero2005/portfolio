@@ -31,7 +31,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
     overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80"
     >
       <Head>
-        <title>{pageInfo?.name} - Portfolio</title>
+        <title>{pageInfo?.name} - Portfolio!</title>
         <meta name="description" content="Oghenero's portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
