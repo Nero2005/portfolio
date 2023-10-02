@@ -41,17 +41,12 @@ const ContactMe = ({}: Props) => {
 
         <div className="flex items-center space-x-5 justify-center">
           <PhoneIcon className="w-7 h-7 text-[#f7ab0a] animate-pulse" />
-          <p className="text-md md:text-xl">+1234567890</p>
+          <p className="text-md md:text-xl">+2349122350327</p>
         </div>
 
         <div className="flex items-center space-x-5 justify-center">
           <EnvelopeIcon className="w-7 h-7 text-[#f7ab0a] animate-pulse" />
           <p className="text-md md:text-xl">nologe37@gmail.com</p>
-        </div>
-
-        <div className="flex items-center space-x-5 justify-center">
-          <MapPinIcon className="w-7 h-7 text-[#f7ab0a] animate-pulse" />
-          <p className="text-md md:text-xl">123 Developer Lane</p>
         </div>
       </div>
 
